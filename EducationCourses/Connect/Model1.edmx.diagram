@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e05a041cf2b448a485ee979b8886b5db" Name="Diagram1">
+        <EntityTypeShape EntityType="EducationCoursesModel.Courses" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EducationCoursesModel.Payments" Width="1.5" PointX="7.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EducationCoursesModel.Registrations" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EducationCoursesModel.Schedule" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EducationCoursesModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EducationCoursesModel.Users" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="EducationCoursesModel.FK__Courses__Teacher__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="EducationCoursesModel.FK__Registrat__Cours__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="EducationCoursesModel.FK__Schedule__Course__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="EducationCoursesModel.FK__Payments__Regist__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="EducationCoursesModel.FK__Registrat__Stude__5629CD9C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
